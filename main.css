@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+body,
+footer {
+    font-family: 'Antic Didone', serif;
+    background-color: #9b7575;
+    color: black;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #f1dbdb;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+header img {
+    max-width: 150px;
+    padding: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 16px;
+    color: #f1dbdb;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+section {
+    color: black;
+}
+
+section p {
+    margin-right: 32px;
+}
+
+section img {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 100px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.store-front {
+    display: flex;
+}
+
+#contact .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom:8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color: #f1dbdb;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9b7575;
+}
+
+input:focus, textarea:focus {
+    outline-color: #f1dbdb;
+}
+
+footer {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
